@@ -17,7 +17,7 @@ const MyProfile = () => {
         setPosts(data);
       }
     })();
-  }, []);
+  }, [session]);
 
   const handleEdit = async (post) => {
     router.push(`/update-prompt?id=${post._id}`);
