@@ -38,7 +38,7 @@ const Nav = () => {
             <button type="button" onClick={signOut} className="outline_btn">
               Sign Out
             </button>
-            <Link href={"/profile"}>
+            <Link href="/profile">
               <Image
                 src={session.user.image}
                 alt="profile"
